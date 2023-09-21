@@ -1,0 +1,5 @@
+# for 'main.py' file
+uvicorn main:app --reload
+
+# for 'app/main.py' file
+uvicorn my_app.main:app --reload
